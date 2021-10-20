@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Numbers</title>
+</head>
+<body>
+
+<tr th:each="List: ${tal}">
+    <td th:text="${List}"/>
+</tr>
+
+</body>
+</html>
